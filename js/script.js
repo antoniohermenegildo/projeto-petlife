@@ -9,10 +9,9 @@ hamburguer.addEventListener("click", () =>{
   navMenu.classList.toggle("active");
 })
 
-menuInicio.addEventListener("click", (e) =>{
-  e.preventDefault();
-  hamburguer.classList.toggle("active");
-  navMenu.classList.toggle("active");
+menuInicio.addEventListener("click", () =>{
+  hamburguer.classList.remove("active");
+  navMenu.classList.remove("active");
 })
 
 //________ Configuração dos itens de duvidas ______________
