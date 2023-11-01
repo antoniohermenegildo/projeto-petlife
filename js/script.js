@@ -9,7 +9,8 @@ hamburguer.addEventListener("click", () =>{
   navMenu.classList.toggle("active");
 })
 
-menuInicio.addEventListener("click", () =>{
+menuInicio.addEventListener("click", (e) =>{
+  e.preventDefault();
   hamburguer.classList.toggle("active");
   navMenu.classList.toggle("active");
 })
